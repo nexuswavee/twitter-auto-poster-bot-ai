@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "Generate a tweet about the latest news in sports, e-sports, NFL, NHL, hockey, football, CS2, League of Legends, Dota 2. It should be something new, a rant, or some advice. The tweet should be under 280 characters, plain text, and include emojis and 2-3 hashtags..";
+    "Generate a tweet about the latest news in sports, e-sports, NFL, NHL, hockey, football, CS2, League of Legends, Dota 2. The tweet should include the latest updates from the past 24 hours, be unique and informative; under 280 characters, plain text, and include emojis and 2-3 hashtags.";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
